@@ -1,3 +1,3 @@
 # Changelog
 
-All notable changes to `:package_name` will be documented in this file.
+All notable changes to `filament-roles-and-permissions-resources` will be documented in this file.

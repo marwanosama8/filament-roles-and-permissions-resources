@@ -1,17 +1,17 @@
 {
-    "name": ":vendor_slug/:package_slug",
-    "description": ":package_description",
+    "name": "marwanosama8/filament-roles-and-permissions-resources",
+    "description": "This is the full customizable resources for spatie/laravel-permission package",
     "keywords": [
-        ":vendor_name",
+        "Marwan Osama",
         "laravel",
-        ":package_slug"
+        "filament-roles-and-permissions-resources"
     ],
-    "homepage": "https://github.com/:vendor_slug/:package_slug",
+    "homepage": "https://github.com/marwanosama8/filament-roles-and-permissions-resources",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Marwan Osama",
+            "email": "marwan.osama8888@gmail.com",
             "role": "Developer"
         }
     ],
@@ -23,31 +23,26 @@
     "require-dev": {
         "laravel/pint": "^1.14",
         "nunomaduro/collision": "^8.1",
-        "larastan/larastan": "^2.9",
         "orchestra/testbench": "^8.22",
         "pestphp/pest": "^2.34",
         "pestphp/pest-plugin-arch": "^2.7",
-        "pestphp/pest-plugin-laravel": "^2.3",
-        "phpstan/extension-installer": "^1.3",
-        "phpstan/phpstan-deprecation-rules": "^1.1",
-        "phpstan/phpstan-phpunit": "^1.3",
-        "spatie/laravel-ray": "^1.35"
+        "pestphp/pest-plugin-laravel": "^2.3"
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src/",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories/"
+            "MarwanOsama\\FilamentRolesAndPermissionsResources\\": "src/",
+            "MarwanOsama\\FilamentRolesAndPermissionsResources\\Database\\Factories\\": "database/factories/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests/",
+            "MarwanOsama\\FilamentRolesAndPermissionsResources\\Tests\\": "tests/",
             "Workbench\\App\\": "workbench/app/"
         }
     },
     "scripts": {
         "post-autoload-dump": "@composer run prepare",
-        "clear": "@php vendor/bin/testbench package:purge-skeleton --ansi",
+        "clear": "@php vendor/bin/testbench package:purge-filament-roles-and-permissions-resources --ansi",
         "prepare": "@php vendor/bin/testbench package:discover --ansi",
         "build": [
             "@composer run prepare",
@@ -73,10 +68,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "MarwanOsama\\FilamentRolesAndPermissionsResources\\FilamentRolesAndPermissionsResourcesServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\Facades\\Skeleton"
+                "FilamentRolesAndPermissionsResources": "MarwanOsama\\FilamentRolesAndPermissionsResources\\Facades\\FilamentRolesAndPermissionsResources"
             }
         }
     },
