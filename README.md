@@ -1,9 +1,5 @@
 # This is the full customizable resources for spatie/laravel-permission package
 
-[![Latest Version on Packagist](https://img.shields.io/packagist/v/marwanosama8/filament-roles-and-permissions-resources.svg?style=flat-square)](https://packagist.org/packages/marwanosama8/filament-roles-and-permissions-resources)
-[![GitHub Tests Action Status](https://img.shields.io/github/actions/workflow/status/marwanosama8/filament-roles-and-permissions-resources/run-tests.yml?branch=main&label=tests&style=flat-square)](https://github.com/marwanosama8/filament-roles-and-permissions-resources/actions?query=workflow%3Arun-tests+branch%3Amain)
-[![GitHub Code Style Action Status](https://img.shields.io/github/actions/workflow/status/marwanosama8/filament-roles-and-permissions-resources/fix-php-code-style-issues.yml?branch=main&label=code%20style&style=flat-square)](https://github.com/marwanosama8/filament-roles-and-permissions-resources/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
-[![Total Downloads](https://img.shields.io/packagist/dt/marwanosama8/filament-roles-and-permissions-resources.svg?style=flat-square)](https://packagist.org/packages/marwanosama8/filament-roles-and-permissions-resources)
 
 This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
 
